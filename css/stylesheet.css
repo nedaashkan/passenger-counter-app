@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #5b6269;
+  font-family: "Source Serif Pro", serif;
+}
+.container {
+  background-color: #f3f3f4;
+  border-radius: 10px;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.app-name {
+  margin-top: 0;
+}
+.people-enter {
+  margin: 0;
+}
+h2 {
+  margin-top: 0;
+  font-size: 40px;
+}
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+button {
+  border: none;
+  margin: 0 5px;
+  padding: 20px 30px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  color: #000;
+  border-radius: 45px;
+  box-shadow: 2px 2px 1px rgb(114, 114, 114);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+#save-btn {
+  background-color: #2ee59d;
+}
+#save-btn:hover {
+  background-color: #29ad78;
+}
+#increment-btn {
+  background-color: #e52e2e;
+}
+#increment-btn:hover {
+  background-color: #c72e2e;
+}
+#save-el {
+  font-size: 30px;
+  font-weight: 600;
+}
